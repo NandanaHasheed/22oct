@@ -1,3 +1,8 @@
+'''
+Author :Nandana Hasheed
+Date: 22-10-2024
+Write a Python program to convert temperature values back and forth between Celsius and Fahrenheit.
+'''
 temp=float(input("Enter temperature"))
 option=input("Is this celsius or farenheit")
 if(option=='F'):
@@ -6,3 +11,5 @@ if(option=='F'):
 elif(option=='C'):
     F= (9/5*temp)+32
     print(temp,"Celsius is",F,"Farenheit.")
+else:
+    print("Invalid option)
